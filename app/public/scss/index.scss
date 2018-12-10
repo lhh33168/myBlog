@@ -1,0 +1,33 @@
+.my_blog_left{
+    .my_blog_left_list{
+        cursor: pointer;
+    }
+}
+.my_blog_right{
+    .my_blog_right_title{
+        height:40px;
+        padding-bottom:20px;
+        font-size:24px; 
+        font-weight:bold;
+    }
+    .my_blog_label{
+        height:30px;
+        padding: 0 15px;
+        background: #000;
+        display:inline-block;
+        line-height: 30px;
+        border-radius:15px;
+        color:#fff;
+        cursor: pointer;
+        margin-bottom:10px;
+        text-align: center;
+        margin-right:10px;
+        a{
+            color:#fff;
+            &:hover{
+                color:#c81623;
+            }
+        }
+    }
+
+}

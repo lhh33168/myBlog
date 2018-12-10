@@ -1,0 +1,42 @@
+body {
+    font-family:"Microsoft YaHei", "微软雅黑", "MicrosoftJhengHei", "Arial", "Helvetica", "sans-serif", "宋体", "华文细黑", "STHeiti", "MingLiu";
+}
+#main_center { margin-top: 70px; }
+#main_bottom { min-height: 32px; line-height: 32px; position:static;}
+
+/* 分页鼠标样式 */
+.pagination>li>a{
+    cursor: pointer;
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+    #main_center { margin-bottom: 64px; }
+    #main_bottom { position:fixed; }
+    .form-group {
+        line-height:3em;
+    }
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+    #main_center { margin-bottom: 32px; }
+    #main_bottom { position:fixed; }
+    .form-group {
+        line-height:3em;
+    }
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+    #main_center { margin-bottom: 32px; }
+    #main_bottom { position:fixed; }
+    .form-group {
+        line-height:3em;
+    }
+}
+
+#devTest .form-group {
+    line-height:1.5em;
+}
+#devTest .tab-pane{
+    padding-top: 20px;
+}

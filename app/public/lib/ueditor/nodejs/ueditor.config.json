@@ -1,0 +1,81 @@
+{
+    "__comment_1: ":"image开头的是图片上传参数。",
+    "imageActionName": "uploadimage",
+    "imageFieldName": "upfile",
+    "imageMaxSize": 2048000,
+    "imageAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"],
+    "imageCompressEnable": true,
+    "imageCompressBorder": 1600,
+    "imageInsertAlign": "none",
+    "imageUrlPrefix": "",
+    "imagePathFormat": "/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}",
+
+    "__comment_2: ":"scrawl开头的是涂鸦上传参数。",
+    "scrawlActionName": "uploadscrawl",
+    "scrawlFieldName": "upfile",
+    "scrawlPathFormat": "/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}",
+    "scrawlMaxSize": 2048000,
+    "scrawlUrlPrefix": "",
+    "scrawlInsertAlign": "none",
+
+    "__comment_3: ":"snapscreen开头的是截图上传参数。",
+    "snapscreenActionName": "uploadimage",
+    "snapscreenPathFormat": "/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}",
+    "snapscreenUrlPrefix": "",
+    "snapscreenInsertAlign": "none",
+
+    "__comment_4: ":"catcher开头的是抓取远程图片参数。",
+    "catcherLocalDomain": ["127.0.0.1", "localhost", "img.baidu.com"],
+    "catcherActionName": "catchimage",
+    "catcherFieldName": "source",
+    "catcherPathFormat": "/upload/image/{yyyy}{mm}{dd}/{time}{rand:6}",
+    "catcherUrlPrefix": "",
+    "catcherMaxSize": 2048000,
+    "catcherAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"],
+
+    "__comment_5: ":"video开头的是视频上传参数。",
+    "videoActionName": "uploadvideo",
+    "videoFieldName": "upfile",
+    "videoPathFormat": "/upload/video/{yyyy}{mm}{dd}/{time}{rand:6}",
+    "videoUrlPrefix": "",
+    "videoMaxSize": 102400000,
+    "videoAllowFiles": [
+        ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+        ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid"],
+
+    "__comment_6: ":"file开头的是文件上传参数。",
+    "fileActionName": "uploadfile",
+    "fileFieldName": "upfile",
+    "filePathFormat": "/upload/file/{yyyy}{mm}{dd}/{time}{rand:6}",
+    "fileUrlPrefix": "",
+    "fileMaxSize": 51200000,
+    "fileAllowFiles": [
+        ".png", ".jpg", ".jpeg", ".gif", ".bmp",
+        ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+        ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid",
+        ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
+        ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
+    ],
+
+    "__comment_7: ":"imageManager开头的是列出图片目录参数。",
+    "imageManagerActionName": "listimage",
+    "imageManagerListPath": "/upload/image/",
+    "imageManagerListSize": 20,
+    "imageManagerUrlPrefix": "",
+    "imageManagerInsertAlign": "none",
+    "imageManagerAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"],
+
+    "__comment_8: ":"fileManager开头的是列出文件目录参数。",
+    "fileManagerActionName": "listfile",
+    "fileManagerListPath": "/upload/file/",
+    "fileManagerUrlPrefix": "",
+    "fileManagerListSize": 20,
+    "fileManagerAllowFiles": [
+        ".png", ".jpg", ".jpeg", ".gif", ".bmp",
+        ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+        ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid",
+        ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
+        ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
+    ]
+
+}

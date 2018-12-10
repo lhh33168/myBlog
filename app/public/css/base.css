@@ -1,0 +1,38 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input { margin: 0; padding: 0; }
+
+body {font-family: "Microsoft YaHei", "微软雅黑", "MicrosoftJhengHei", "华文细黑",STHeiti,MingLiu,"PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif, Arial;}
+
+ul, ol { list-style: none; }
+
+select, input { vertical-align: middle; }
+
+/*防止拖动*/
+textarea { resize: none; }
+
+a { color:#000; text-decoration: none; }
+
+a:hover { color: #c81623; text-decoration: none; }
+
+table { border-collapse: collapse; }
+
+/*去掉input等聚焦时的蓝色边框*/
+img, input, fieldset, button { border: none; padding: 0; margin: 0; outline-style: none; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal;}
+
+header, nav, main, article, section, aside, footer, figure, figcaption, details, summary { display: block; }
+
+.clearfix:after { content: ""; display: block; height: 0; overflow: hidden; visibility: hidden; clear: both; zoom: 1; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+* { box-sizing: border-box; }
+
+s, i, em { font-style: normal; text-decoration: none; }
+
+.box { min-width: 1100px; _width: expression(document.body.clientWidth < 1100 ? "1100px" : "auto"); }
+
+.container_wrap { width: 1100px; margin: 0 auto; }
