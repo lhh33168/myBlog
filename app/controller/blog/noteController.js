@@ -10,6 +10,7 @@ class noteController extends Controller {
         body.page = body.page || 1;
         let categoryLabel = await this.ctx.service.blog.noteService.getCategory(body);
         let status = await this.ctx.service.blog.noteService.select(body);
+        console.log('status',status)
         await this.ctx.render('/blog/note/note.tpl', { status: status, categoryLabel: categoryLabel, params: body, });
     }
     /**

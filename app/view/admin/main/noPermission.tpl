@@ -9,7 +9,7 @@
     <script src="/public/lib/jquery/1.12.4/jquery.min.js"></script>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="/public/lib/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>EE快聘 - 综合管理平台</title>
+    <title>个人博客管理后台</title>
 </head>
 
 <body>

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link href="/public/EEkpin.ico" rel="EEkpin icon" type="image/x-icon"/>
+    <link href="/public/favicon.ico" rel="favicon icon" type="image/x-icon"/>
     <link rel="stylesheet" href="/public/lib/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="/public/lib/bootstrap-treeview/bootstrap-treeview.min.css">
     <link rel="stylesheet" href="/public/lib/zTree_v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
@@ -30,17 +30,7 @@
 
     <script type="text/javascript" src="/public/js/common.js"></script>
     <title>
-        {% if 1==ctx.session.user.syscode %}
-            EE快聘 - 管理平台
-        {% elif 2==ctx.session.user.syscode %}
-            精英易 - 管理平台
-        {% elif 3==ctx.session.user.syscode %}
-            聘得易 - 管理平台
-        {% elif 4==ctx.session.user.syscode %}
-            权限系统 - 管理平台
-        {% else %}
-            EE快聘 - 管理平台
-        {% endif %}
+        个人博客管理后台
     </title>
     <style>
         .tips {
@@ -55,7 +45,7 @@
 
 <body>
     {% block body %}{% endblock %}
-    <footer class="footer" style="padding-bottom: 20px; back">
+    <footer class="footer" style="padding-bottom: 20px;">
         <div class="container" style="text-align:center;">
             <small style="color: #777">@2017 oneonejl.com  广州一一网络技术有限公司 ® 版权所有 <a href="http://www.miibeian.gov.cn/" target="_blank" style="color: #777">粤ICP备18024612号-4</a> <a href="/admin/jyy/version" style="color: #777">Version:1.11.0</a></small>
         </div>
