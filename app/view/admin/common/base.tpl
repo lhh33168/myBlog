@@ -47,7 +47,7 @@
     {% block body %}{% endblock %}
     <footer class="footer" style="padding-bottom: 20px;">
         <div class="container" style="text-align:center;">
-            <small style="color: #777">@2017 oneonejl.com  广州一一网络技术有限公司 ® 版权所有 <a href="http://www.miibeian.gov.cn/" target="_blank" style="color: #777">粤ICP备18024612号-4</a> <a href="/admin/jyy/version" style="color: #777">Version:1.11.0</a></small>
+            <small style="color: #777"版权所有 <a href="http://www.miibeian.gov.cn/" target="_blank" style="color: #777"></a> <a href="/admin/jyy/version" style="color: #777">Version:1.11.0</a></small>
         </div>
     </footer>
 </body>

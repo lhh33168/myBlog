@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-04-05 14:45:43
+ * @LastEditTime: 2020-04-05 21:27:58
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \trunk\config\config.local.js
+ */
 exports.keys = 'blog-5267435154';
 exports.cluster = {
     listen: {
@@ -16,9 +24,9 @@ exports.mysql = {
             // 用户名
             user: 'root',
             // 密码
-            password: '',
+            password: '123456',
             // 数据库名
-            database: 'blog'
+            database: 'mysql'
         },
     },
     // 所有数据库配置的默认值
